@@ -1,0 +1,27 @@
+10048  mkdir checkpoint-PabloBellido
+10049  cd checkpoint-PabloBellido
+10050  git init 
+10051  git remote add origin git@github.com:Pablitox26/checkpoint-PabloBellido.git
+10052  touch main.js index.html
+10053  git add .
+10054  git commit -m "commit 01 de PabloBellido"
+10055  git push origin main
+10056  git checkout -b feature
+10057  mkdir Hardware Software SeguridadInformatica
+10058  cd Hardware
+10059  touch resumen.txt
+10060  cd ..
+10061  cd Software
+10062  touch resumen.txt
+10063  cd ..
+10064  cd SeguridadInformatica
+10065  touch resumen.txt
+10066  cd ..
+10067  git add .
+10068  git commit -m "commit 02 de PabloBellido"
+10069  git push origin feature
+10070  git checkout main
+10071  mv main.js resumenHardware.txt
+10072  mv index.html resumenSoftware.txt
+10073  nano resumenSoftware.txt
+10074  nano resumenHardware.txt
